@@ -1,0 +1,59 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "FirstName": "Harsh",
+  "MiddleName": "Vardhan",
+  "LastName": "Raj",
+  "devDesc": "Engineer | Programmer | Web Developer ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/rajharsh81070",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/harsh-raj-930427164/",
+      "style": "socialicons"
+    }
+  ],
+  "aboutHeading": "About Me",
+  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
+  "projectsArray": [
+    {
+      "id": 0,
+      "name": "News-Time",
+      "description": "News",
+      "github_url": "https://github.com/rajharsh81070",
+      "live_demo": "https://github.com/rajharsh81070",
+      "languages": ["React", "Material-UI"]
+    },
+    {
+      "id": 1,
+      "name": "News-Time",
+      "description": "News",
+      "github_url": "https://github.com/rajharsh81070",
+      "live_demo": "https://github.com/rajharsh81070",
+      "languages": ["React", "Material-UI"]
+    },
+    {
+      "id": 2,
+      "name": "News-Time",
+      "description": "News",
+      "github_url": "https://github.com/rajharsh81070",
+      "live_demo": "https://github.com/rajharsh81070",
+      "languages": ["React", "Material-UI"]
+    },
+    {
+      "id": 3,
+      "name": "News-Time",
+      "description": "News",
+      "github_url": "https://github.com/rajharsh81070",
+      "live_demo": "https://github.com/rajharsh81070",
+      "languages": ["React", "Material-UI"]
+    }
+  ]
+}
