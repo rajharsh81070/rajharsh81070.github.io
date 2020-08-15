@@ -1,5 +1,5 @@
 import React from "react";
-
+import Pdf from '../assets/Harsh_Resume_31_07.pdf';
 import {
   aboutDescription,
   aboutHeading
@@ -12,7 +12,7 @@ function AboutMe() {
       className="jumbotron jumbotron-fluid m-0"
     // style={{ backgroundColor: '#f7f7f7' }}
     >
-      <div className="container container-fluid">
+      <div className="container container-fluid p-5">
         <div className="row">
           <div className="col-lg-12">
             <h1 className="display-4 mb-5 text-center title-a">{aboutHeading}
@@ -22,7 +22,7 @@ function AboutMe() {
             <p className="lead text-center">
               <a
                 className="btn btn-outline-dark btn-lg"
-                href={'/#about'}
+                href={Pdf}
                 target="_blank"
                 rel="noreferrer noopener"
                 role="button"

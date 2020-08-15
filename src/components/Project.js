@@ -5,9 +5,9 @@ import { projectsArray } from "../assets/data.json";
 const Project = () => {
   return (
     <div id="projects" className="jumbotron jumbotron-fluid bg-light m-0">
-      <div className="container container-fluid">
+      <div className="container container-fluid p-5">
         <div className="d-inline align-self-center title-box">
-          <h1 className="display-4 pb-5 text-center title-a">Recent Projects
+          <h1 className="display-4 pb-5 text-center title-a">Projects
           <div className="line-mf"></div>
           </h1>
           <div className="row">

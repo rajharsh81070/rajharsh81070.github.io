@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
+import ScrollTopArrow from "./components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Navbar />
       <Route path="/" exact component={Home} />
       <Footer />
+      <ScrollTopArrow />
     </BrowserRouter>
   )
 };

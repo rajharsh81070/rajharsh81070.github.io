@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import Pdf from "../editable-stuff/resume.pdf";
-import { FirstName } from "../assets/data.json";
+import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
   const [isTop, setIsTop] = useState(true);
@@ -15,15 +15,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-md fixed-top navbar-light navbar-b ${
-        isTop ? "bg-transparent" : "bg-white"
+      className={`navbar navbar-expand-lg fixed-top navbar-dark navbar-b ${
+        isTop ? "bg-transparent" : "bg-dark"
         } `}
       style={{ width: '100%' }}
     >
       <div className="container">
         <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}
           style={{ fontSize: 'x-large' }}>
-          {`<${FirstName} />`}
+          <img src={logo} alt="<Harsh />" />
         </a>
         <button
           className="navbar-toggler"
@@ -37,44 +37,44 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a
-                className="nav-link lead"
+                className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#about"}
                 style={{ fontSize: 'x-large' }}
               >
-                <b>About</b>
+                About
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="nav-link lead"
+                className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#projects"}
                 style={{ fontSize: 'x-large' }}
               >
                 Projects
-            </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link lead"
-                href={process.env.PUBLIC_URL + "/#skills"}
-                style={{ fontSize: 'x-large' }}
-              >
-                <b>Skills</b>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className="nav-link lead"
+                className="navbar-brand lead"
+                href={process.env.PUBLIC_URL + "/#skills"}
+                style={{ fontSize: 'x-large' }}
+              >
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#work"}
                 style={{ fontSize: 'x-large' }}
               >
-                <b>Certificates</b>
+                Certificates
               </a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </div >
+    </nav >
   );
 };
 

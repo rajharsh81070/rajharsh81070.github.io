@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Typist from "react-typist";
 import {
   FirstName,
@@ -8,10 +8,15 @@ import {
 } from "../assets/data.json";
 
 const MainBody = () => {
-  // const [backgroundType, setBackgroundType] = useState(Configs.backgroundType);
   const [hoverstatus, setHoverstatus] = useState(
     new Array(icons.length).fill("socialicons")
   );
+
+  const [count, setCount] = useState(1);
+
+  useEffect(() => {
+    setCount(1);
+  }, [count]);
 
   const toggleHover = (data) => {
     const newhoverStatus = [...hoverstatus];
@@ -28,16 +33,22 @@ const MainBody = () => {
   return (
     <div>
       <div
-        id="home"
         className="title jumbotron jumbotron-fluid bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-1">
+          <h1 className="display-3">
             {`${FirstName} ${LastName}`}
           </h1>
-          <Typist className="lead"> {devDesc}</Typist>
-          <div className="p-5">
+          {
+            count ? (
+              <Typist avgTypingDelay={120} onTypingDone={() => setCount(0)} className="lead"> {devDesc}
+              </Typist>
+            )
+              :
+              ("")
+          }
+          < div className="p-4">
             {icons.map((icon) => (
               <a
                 key={icon.id}
@@ -54,17 +65,29 @@ const MainBody = () => {
               </a>
             ))}
           </div>
-          <a
+          {/* <a
             className="btn btn-outline-light btn-lg"
             href="#about"
             role="button"
             aria-label="Learn more about me"
           >
             More about me
+          </a> */}
+          <a
+            href="#about"
+            rel="noopener"
+            aria-label="Learn more about me"
+          >
+            <div className="scroll-downs">
+              <div className="mousey">
+                <div className="scroller">
+                </div>
+              </div>
+            </div>
           </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

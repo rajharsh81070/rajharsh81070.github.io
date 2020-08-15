@@ -1,11 +1,8 @@
 {
-  "backgroundType": "gradient",
-  "plainBackgroundMode": "daylight",
-  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
   "FirstName": "Harsh",
   "MiddleName": "Vardhan",
   "LastName": "Raj",
-  "devDesc": "Engineer | Programmer | Web Developer ",
+  "devDesc": "Engineer | Programmer | Web Developer | Learner ",
   "icons": [
     {
       "id": 0,
@@ -21,39 +18,67 @@
     }
   ],
   "aboutHeading": "About Me",
-  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
+  "aboutDescription": "I'm Computer Engineer from TMSL, Kolkata.",
   "projectsArray": [
     {
       "id": 0,
       "name": "News-Time",
-      "description": "News",
-      "github_url": "https://github.com/rajharsh81070",
-      "live_demo": "https://github.com/rajharsh81070",
-      "languages": ["React", "Material-UI"]
+      "description": "News-Time - a news aggregator app developed over News API",
+      "github_url": "https://github.com/rajharsh81070/News-Time",
+      "live_demo": "https://github.com/rajharsh81070/News-Time",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "Material-UI",
+        "Cloudinary",
+        "Mongo Atlas",
+        "NewsApi"
+      ]
     },
     {
       "id": 1,
-      "name": "News-Time",
-      "description": "News",
+      "name": "Casting Agency",
+      "description": "RESTful API implemented for managing movies and actors for a casting agency.",
       "github_url": "https://github.com/rajharsh81070",
-      "live_demo": "https://github.com/rajharsh81070",
-      "languages": ["React", "Material-UI"]
+      "live_demo": "https://harsh-casting-agency.herokuapp.com/",
+      "technologies": ["Flask", "AuthO", "PostgresSQL", "Heroku", "JWT"]
     },
     {
       "id": 2,
-      "name": "News-Time",
-      "description": "News",
-      "github_url": "https://github.com/rajharsh81070",
-      "live_demo": "https://github.com/rajharsh81070",
-      "languages": ["React", "Material-UI"]
+      "name": "Go-World",
+      "description": "Social Media application for like minded people where user can create group with like-minded people.",
+      "github_url": "https://github.com/samsthithi/go-world-client",
+      "live_demo": "https://github.com/samsthithi/go-world-client",
+      "technologies": ["React", "Flask", "JWT", "PostgresSQL", "Axios"]
     },
     {
       "id": 3,
-      "name": "News-Time",
-      "description": "News",
-      "github_url": "https://github.com/rajharsh81070",
-      "live_demo": "https://github.com/rajharsh81070",
-      "languages": ["React", "Material-UI"]
+      "name": "Travel Planner",
+      "description": "Application that will record a trip starting date with the weather status & an image for the location you intend to go.",
+      "github_url": "https://github.com/rajharsh81070/Travel-Planner-App",
+      "live_demo": "https://hvr-travel-planner-app.netlify.app/",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Webpack",
+        "Babel",
+        "Node.js"
+      ]
+    }
+  ],
+  "certificationsHeading": "Certificates",
+  "certificationsArray": [
+    {
+      "id": 0,
+      "confirm_url": "https://confirm.udacity.com/HMSACMVN",
+      "name": "Udacity-FSND"
+    },
+    {
+      "id": 1,
+      "confirm_url": "https://www.codechef.com/certificates/public/b5136b6",
+      "name": "Codechef-CCDSAP"
     }
   ]
 }

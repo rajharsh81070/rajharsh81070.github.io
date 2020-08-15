@@ -7,7 +7,7 @@ const Skills = () => {
       id="skills"
       className="jumbotron jumbotron-fluid m-0"
     >
-      <div className="container container-fluid">
+      <div className="container container-fluid p-5">
         {/* <div className="col-5 d-none d-lg-inline align-self-center">
             </div> */}
         <div className="d-inline align-self-center">
