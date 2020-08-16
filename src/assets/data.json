@@ -2,7 +2,7 @@
   "FirstName": "Harsh",
   "MiddleName": "Vardhan",
   "LastName": "Raj",
-  "devDesc": "Engineer | Programmer | Web Developer | Learner ",
+  "devDesc": "Engineer | Programmer | Developer | Learner ",
   "icons": [
     {
       "id": 0,
@@ -25,7 +25,7 @@
       "name": "News-Time",
       "description": "News-Time - a news aggregator app developed over News API",
       "github_url": "https://github.com/rajharsh81070/News-Time",
-      "live_demo": "https://github.com/rajharsh81070/News-Time",
+      "live_demo": "https://news-time-daily.herokuapp.com/",
       "technologies": [
         "React",
         "Node.js",
@@ -40,9 +40,9 @@
       "id": 1,
       "name": "Casting Agency",
       "description": "RESTful API implemented for managing movies and actors for a casting agency.",
-      "github_url": "https://github.com/rajharsh81070",
+      "github_url": "https://github.com/rajharsh81070/Casting-Agency",
       "live_demo": "https://harsh-casting-agency.herokuapp.com/",
-      "technologies": ["Flask", "AuthO", "PostgresSQL", "Heroku", "JWT"]
+      "technologies": ["Flask", "Auth0", "PostgresSQL", "Heroku", "JWT"]
     },
     {
       "id": 2,
