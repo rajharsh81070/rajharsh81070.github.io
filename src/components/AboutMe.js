@@ -4,8 +4,15 @@ import {
   aboutDescription,
   aboutHeading
 } from '../assets/data.json';
+import ReactGa from 'react-ga';
+
+const Analytics = () => {
+  ReactGa.initialize("UA-175562091-1 ");
+  ReactGa.pageview('About Me!');
+}
 
 function AboutMe() {
+  Analytics();
   return (
     <div
       id="about"

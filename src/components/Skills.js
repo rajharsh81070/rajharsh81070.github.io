@@ -1,7 +1,14 @@
 import React from "react";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import ReactGa from 'react-ga';
+
+const Analytics = () => {
+  ReactGa.initialize("UA-175562091-1 ");
+  ReactGa.pageview('Skills!');
+}
 
 const Skills = () => {
+  Analytics();
   return (
     <div
       id="skills"
@@ -20,17 +27,17 @@ const Skills = () => {
               <p className="lead">C/C++
                   <ProgressBar now={81} style={{ backgroundColor: 'white' }} />
               </p>
+              <p className="lead">Data Structures
+                <ProgressBar now={84} style={{ backgroundColor: 'white' }} />
+              </p>
               <p className="lead">Java
-                  <ProgressBar now={45} style={{ backgroundColor: 'white' }} />
+                  <ProgressBar now={36} style={{ backgroundColor: 'white' }} />
               </p>
               <p className="lead">Python
-                  <ProgressBar now={54} style={{ backgroundColor: 'white' }} />
+                  <ProgressBar now={45} style={{ backgroundColor: 'white' }} />
               </p>
               <p className="lead">JavaScript
                 <ProgressBar now={60} style={{ backgroundColor: 'white' }} />
-              </p>
-              <p className="lead">Data Structures
-                <ProgressBar now={84} style={{ backgroundColor: 'white' }} />
               </p>
             </div>
             <div className="col">
@@ -38,17 +45,17 @@ const Skills = () => {
               <p className="lead">Git
                   <ProgressBar now={60} style={{ backgroundColor: 'white' }} />
               </p>
+              <p className="lead">Algorithms
+                <ProgressBar now={87} style={{ backgroundColor: 'white' }} />
+              </p>
               <p className="lead">HTML/CSS
                 <ProgressBar now={66} style={{ backgroundColor: 'white' }} />
               </p>
               <p className="lead">Node.js
                 <ProgressBar now={69} style={{ backgroundColor: 'white' }} />
               </p>
-              <p className="lead">React
+              <p className="lead">React js
                 <ProgressBar now={75} style={{ backgroundColor: 'white' }} />
-              </p>
-              <p className="lead">Algorithms
-                <ProgressBar now={87} style={{ backgroundColor: 'white' }} />
               </p>
             </div>
           </div>

@@ -6,8 +6,15 @@ import {
 
 import udacity from '../assets/udacity.svg';
 import codechef from '../assets/codechef.jpeg';
+import ReactGa from 'react-ga';
+
+const Analytics = () => {
+  ReactGa.initialize("UA-175562091-1 ");
+  ReactGa.pageview('Certifications!');
+}
 
 function Certifications() {
+  Analytics();
   return (
     <div id="work"
       className="jumbotron jumbotron-fluid bg-light m-0">

@@ -2,7 +2,15 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { projectsArray } from "../assets/data.json";
 
+import ReactGa from 'react-ga';
+
+const Analytics = () => {
+  ReactGa.initialize("UA-175562091-1 ");
+  ReactGa.pageview('Project!');
+}
+
 const Project = () => {
+  Analytics();
   return (
     <div id="projects" className="jumbotron jumbotron-fluid bg-light m-0">
       <div className="container container-fluid p-5">

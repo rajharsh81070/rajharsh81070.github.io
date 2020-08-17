@@ -23,7 +23,7 @@
     {
       "id": 0,
       "name": "News-Time",
-      "description": "News-Time - a news aggregator app developed over News API",
+      "description": "News-Time - a news aggregator app developed over News API.",
       "github_url": "https://github.com/rajharsh81070/News-Time",
       "live_demo": "https://news-time-daily.herokuapp.com/",
       "technologies": [
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "name": "Travel Planner",
-      "description": "Application that will record a trip starting date with the weather status & an image for the location you intend to go.",
+      "description": "App will record a trip starting date with the weather status & an image of the location which you intend to go.",
       "github_url": "https://github.com/rajharsh81070/Travel-Planner-App",
       "live_demo": "https://hvr-travel-planner-app.netlify.app/",
       "technologies": [

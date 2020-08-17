@@ -6,6 +6,12 @@ import {
   devDesc,
   icons,
 } from "../assets/data.json";
+import ReactGa from 'react-ga';
+
+const Analytics = () => {
+  ReactGa.initialize("UA-175562091-1 ");
+  ReactGa.pageview('Main Body!');
+}
 
 const MainBody = () => {
   const [hoverstatus, setHoverstatus] = useState(
@@ -29,6 +35,8 @@ const MainBody = () => {
       return setHoverstatus(newhoverStatus);
     }
   };
+
+  Analytics();
 
   return (
     <div>
