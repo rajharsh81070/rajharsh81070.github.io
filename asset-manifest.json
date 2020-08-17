@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.0f0fb17e.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.929393bf.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.929393bf.chunk.js.map",
+    "main.js": "/My-Portfolio/static/js/main.b8a2d3a6.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.b8a2d3a6.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.2dca773a.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.2dca773a.js.map",
     "static/css/2.11829350.chunk.css": "/My-Portfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.cc6e04a9.chunk.js": "/My-Portfolio/static/js/2.cc6e04a9.chunk.js",
-    "static/js/2.cc6e04a9.chunk.js.map": "/My-Portfolio/static/js/2.cc6e04a9.chunk.js.map",
+    "static/js/2.ab11119e.chunk.js": "/My-Portfolio/static/js/2.ab11119e.chunk.js",
+    "static/js/2.ab11119e.chunk.js.map": "/My-Portfolio/static/js/2.ab11119e.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.0bcfe082d3134e8b5a628635b458372d.js": "/My-Portfolio/precache-manifest.0bcfe082d3134e8b5a628635b458372d.js",
+    "precache-manifest.84a79d28671a52dd519778beab4fda5b.js": "/My-Portfolio/precache-manifest.84a79d28671a52dd519778beab4fda5b.js",
     "service-worker.js": "/My-Portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/My-Portfolio/static/css/2.11829350.chunk.css.map",
     "static/css/main.0f0fb17e.chunk.css.map": "/My-Portfolio/static/css/main.0f0fb17e.chunk.css.map",
-    "static/js/2.cc6e04a9.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.cc6e04a9.chunk.js.LICENSE.txt",
-    "static/media/Harsh_Resume_31_07.pdf": "/My-Portfolio/static/media/Harsh_Resume_31_07.102e56e2.pdf",
+    "static/js/2.ab11119e.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.ab11119e.chunk.js.LICENSE.txt",
     "static/media/codechef.jpeg": "/My-Portfolio/static/media/codechef.15ae4236.jpeg",
+    "static/media/resume.pdf": "/My-Portfolio/static/media/resume.3e032455.pdf",
     "static/media/udacity.svg": "/My-Portfolio/static/media/udacity.bdfec564.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2dca773a.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.cc6e04a9.chunk.js",
+    "static/js/2.ab11119e.chunk.js",
     "static/css/main.0f0fb17e.chunk.css",
-    "static/js/main.929393bf.chunk.js"
+    "static/js/main.b8a2d3a6.chunk.js"
   ]
 }
