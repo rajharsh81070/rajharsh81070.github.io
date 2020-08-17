@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  footer,
+  email
+} from "../assets/data.json";
 
 function Footer() {
   // const [bgStyle] = useState({ backgroundColor: "#f5f5f5" });
@@ -15,9 +19,8 @@ function Footer() {
           <h2 className="display-4 pb-3 text-center title-a">Get In Touch
           <div className="line-mf"></div>
           </h2>
-          <p className="lead text-center" style={{ fontSize: '22px' }}>I'm actively looking for full-time Software Engineering opportunities! If you know of
-          any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at
-            <a style={{ fontSize: '1rem' }} href="mailto:rajharsh81070@gmail.com">{" "}
+          <p className="lead text-center" style={{ fontSize: '22px' }}>{footer}
+            <a style={{ fontSize: '1rem' }} href={`mailto:${email}`}>{" "}
             rajharsh81070@gmail.com
             </a>{"."}
           </p>

@@ -18,7 +18,7 @@
     }
   ],
   "aboutHeading": "About Me",
-  "aboutDescription": "I'm Computer Engineer from TMSL, Kolkata looking for challenging full time opportunities. I like to learn new technologies and always ready to hone my skills. I love to solve real life problems using my coding skills . I'm enthusiastic coder with hands-on experience on different development projects.",
+  "aboutDescription": "I'm a Computer Engineer from TMSL, Kolkata looking for challenging full time opportunities. I like to learn new technologies and I'm always ready to hone my skills. I love to solve real life problems using my coding skills . I'm enthusiastic coder with hands-on experience on different development projects.",
   "projectsArray": [
     {
       "id": 0,
@@ -80,5 +80,7 @@
       "confirm_url": "https://www.codechef.com/certificates/public/b5136b6",
       "name": "Codechef-CCDSAP"
     }
-  ]
+  ],
+  "footer": "I'm actively looking for full-time Software Engineering opportunities! If you know of any available positions, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  "email": "rajharsh81070@gmail.com"
 }

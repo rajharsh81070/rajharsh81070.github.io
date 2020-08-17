@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import Pdf from "../editable-stuff/resume.pdf";
+import Pdf from "../assets/resume.pdf";
 import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
@@ -21,8 +21,11 @@ const Navbar = () => {
       style={{ width: '100%' }}
     >
       <div className="container">
-        <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}
-          style={{ fontSize: 'x-large' }}>
+        <a
+          className="navbar-brand"
+          href={process.env.PUBLIC_URL + "/#home"}
+        // style={{ fontSize: 'x-large' }}
+        >
           <img src={logo} alt="<Harsh />" />
         </a>
         <button
@@ -39,7 +42,7 @@ const Navbar = () => {
               <a
                 className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#about"}
-                style={{ fontSize: 'x-large' }}
+              // style={{ fontSize: 'x-large' }}
               >
                 About
               </a>
@@ -48,7 +51,7 @@ const Navbar = () => {
               <a
                 className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#projects"}
-                style={{ fontSize: 'x-large' }}
+              // style={{ fontSize: 'x-large' }}
               >
                 Projects
               </a>
@@ -57,7 +60,7 @@ const Navbar = () => {
               <a
                 className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#skills"}
-                style={{ fontSize: 'x-large' }}
+              // style={{ fontSize: 'x-large' }}
               >
                 Skills
               </a>
@@ -66,9 +69,20 @@ const Navbar = () => {
               <a
                 className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#work"}
-                style={{ fontSize: 'x-large' }}
+              // style={{ fontSize: 'x-large' }}
               >
                 Certificates
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="navbar-brand lead"
+                href={Pdf}
+                target="_blank"
+                // style={{ fontSize: 'x-large' }}
+                rel="noreferrer noopener"
+              >
+                <b>Resume</b>
               </a>
             </li>
           </ul>

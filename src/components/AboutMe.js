@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from '../assets/Harsh_Resume_31_07.pdf';
+import Pdf from "../assets/resume.pdf";
 import {
   aboutDescription,
   aboutHeading
@@ -7,7 +7,8 @@ import {
 import ReactGa from 'react-ga';
 
 const Analytics = () => {
-  ReactGa.initialize("UA-175562091-1 ");
+  // Tracking ID - UA-175562091-1
+  ReactGa.initialize("UA-175562091-1");
   ReactGa.pageview('About Me!');
 }
 

@@ -9,7 +9,9 @@ import {
 import ReactGa from 'react-ga';
 
 const Analytics = () => {
-  ReactGa.initialize("UA-175562091-1 ");
+  // Tracking ID - UA-175562091-1
+
+  ReactGa.initialize("UA-175562091-1");
   ReactGa.pageview('Main Body!');
 }
 
