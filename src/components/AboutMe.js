@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../assets/resume.pdf";
+import Pdf from "../assets/harsh_resume.pdf";
 import {
   aboutDescription,
   aboutHeading

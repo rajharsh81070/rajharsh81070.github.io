@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Pdf from "../assets/resume.pdf";
+import Pdf from "../assets/harsh_resume.pdf";
 import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
