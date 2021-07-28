@@ -19,6 +19,20 @@
   ],
   "aboutHeading": "About Me",
   "aboutDescription": "Hello, I'm a Computer Science Engineer from TMSL, Kolkata working at Paysafe Group as a Platform Engineer. I like to learn new technologies and explore different fields and I'm always ready to hone my skills. I love to solve real life problems using my skills . I'm enthusiastic coder with hands-on experience on different development projects.",
+  "aboutExperience": "Experience",
+  "experiences": [
+    {
+      "title": "Platform Engineer",
+      "company": "Paysafe Group",
+      "date": "11/2020 - Present",
+      "id": 0,
+      "details": [
+        "Designed and developed UI to support multiple wallet types",
+        "Implemented several features like bulk create, bulk edit etc.",
+        "Migrated the application from angular 2 to 8."
+      ]
+    }
+  ],
   "projectsArray": [
     {
       "id": 0,

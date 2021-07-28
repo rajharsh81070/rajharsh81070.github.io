@@ -285,6 +285,13 @@
   margin-top: 0px;
 }
 
+.experience-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -33px;
+  margin-left: -33px;
+}
+
 #stars {
   width: 1px;
   height: 1px;

@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
 import MainBody from "./components/MainBody";
 import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/NavBar";
@@ -17,6 +18,7 @@ const Home = () => {
     <>
       <MainBody />
       <AboutMe />
+      <Experience />
       <Project />
       <Skills />
       <Certifications />

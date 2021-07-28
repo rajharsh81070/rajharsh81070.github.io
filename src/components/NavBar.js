@@ -50,6 +50,15 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="navbar-brand lead"
+                href={process.env.PUBLIC_URL + "/#experience"}
+              // style={{ fontSize: 'x-large' }}
+              >
+                Experience
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="navbar-brand lead"
                 href={process.env.PUBLIC_URL + "/#projects"}
               // style={{ fontSize: 'x-large' }}
               >
