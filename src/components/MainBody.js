@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Typist from "react-typist";
 import {
   FirstName,
-  LastName,
   devDesc,
   icons,
 } from "../assets/data.json";
@@ -47,8 +46,9 @@ const MainBody = () => {
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-3">
-            {`${FirstName} ${LastName}`}
+          <h1 className="display-4">
+             Hi <span className="animate-hand" role="img" aria-label="hand-wave">👋</span>,<br/>
+             {`I'm ${FirstName}`}
           </h1>
           {
             count ? (
