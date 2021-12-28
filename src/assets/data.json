@@ -29,7 +29,8 @@
       "details": [
         "Designed and developed UI to support multiple wallet types",
         "Implemented several features like bulk create, bulk edit etc.",
-        "Migrated the application from angular 2 to 8."
+        "Migrated the application from angular 2 to 8.",
+        "Automated the end to end non compliance billing process."
       ]
     }
   ],
