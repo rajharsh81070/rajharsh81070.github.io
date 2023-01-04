@@ -24,13 +24,27 @@
     {
       "title": "Platform Engineer",
       "company": "Paysafe Group",
-      "date": "11/2020 - Present",
+      "date": "11/2020 - 02/2022",
       "id": 0,
       "details": [
         "Designed and developed UI to support multiple wallet types",
         "Implemented several features like bulk create, bulk edit etc.",
         "Migrated the application from angular 2 to 8.",
         "Automated the end to end non compliance billing process."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Dream 11",
+      "date": "02/2022 - Present",
+      "id": 1,
+      "details": [
+        "Analysed and improved the performance ofreact project by 35-40%",
+        "Built a micro front-end application in react to serve various data platforms",
+        "Developed and drove the project from development to production",
+        "Developed the UI for cataloging all the events",
+        "Developed the UI for PII decryption tool",
+        "Collaborated and improved the hiring and on-boarding process"
       ]
     }
   ],

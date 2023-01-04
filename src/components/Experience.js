@@ -14,9 +14,10 @@ function Experience() {
                 <div className="line-mf"></div>
               </h1>
           <div class="row">
-            <Timeline lineColor={'#ddd'}>
+            <Timeline animate={true} lineColor={'#ddd'}>
               {experiences.map(experience => (
                 <TimelineItem
+                  
                   key={experience.id}
                   dateText={experience.date}
                   style={{ color: '#e86971' }}>
