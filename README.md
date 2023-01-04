@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. [Demo](https://rajharsh81070.github.io/My-Portfolio/)
+It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. [Demo](https://rajharsh81070.github.io/)
 
 ## Technology Stack 🛠️
 

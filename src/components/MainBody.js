@@ -5,6 +5,7 @@ import {
   devDesc,
   icons,
 } from "../assets/data.json";
+import { HashLink as Link } from "react-router-hash-link";
 import ReactGa from 'react-ga';
 
 const Analytics = () => {
@@ -83,9 +84,9 @@ const MainBody = () => {
           >
             More about me
           </a> */}
-          <a
-            href="#about"
-            rel="noopener"
+          <Link
+            to="#about"
+            smooth
             aria-label="Learn more about me"
           >
             <div className="scroll-downs">
@@ -94,7 +95,7 @@ const MainBody = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div >

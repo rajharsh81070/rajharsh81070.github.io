@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import Pdf from "../assets/harsh_resume.pdf";
 import logo from "../assets/logo.jpg";
 
@@ -21,13 +22,11 @@ const Navbar = () => {
       style={{ width: '100%' }}
     >
       <div className="container">
-        <a
+        <div
           className="navbar-brand"
-          href={process.env.PUBLIC_URL + "/#home"}
-        // style={{ fontSize: 'x-large' }}
         >
           <img src={logo} alt="<Harsh />" />
-        </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -39,49 +38,54 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
+              <Link
                 className="navbar-brand lead"
-                href={process.env.PUBLIC_URL + "/#about"}
+                to="#about"
+                smooth
               // style={{ fontSize: 'x-large' }}
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="navbar-brand lead"
-                href={process.env.PUBLIC_URL + "/#experience"}
+                to={"#experience"}
+                smooth
               // style={{ fontSize: 'x-large' }}
               >
                 Experience
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="navbar-brand lead"
-                href={process.env.PUBLIC_URL + "/#projects"}
+                to={"#projects"}
+                smooth
               // style={{ fontSize: 'x-large' }}
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="navbar-brand lead"
-                href={process.env.PUBLIC_URL + "/#skills"}
+                to={"#skills"}
+                smooth
               // style={{ fontSize: 'x-large' }}
               >
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a
+              <Link
                 className="navbar-brand lead"
-                href={process.env.PUBLIC_URL + "/#work"}
+                smooth
+                to={"#work"}
               // style={{ fontSize: 'x-large' }}
               >
                 Certificates
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a
