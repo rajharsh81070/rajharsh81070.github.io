@@ -17,9 +17,16 @@ function Experience() {
             <Timeline animate={true} lineColor={'#ddd'}>
               {experiences.map(experience => (
                 <TimelineItem
-                  
                   key={experience.id}
                   dateText={experience.date}
+                  dateInnerStyle={{
+                    padding: '8px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    lineHeight: 'unset',
+                    textIndent: 'unset'
+                  }}
                   style={{ color: '#e86971' }}>
                   <h3>{experience.title},</h3>
                   <h3>{experience.company}</h3>
