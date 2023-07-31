@@ -20,7 +20,26 @@
   "aboutHeading": "About Me",
   "aboutDescription": "Hello, I'm a Computer Science Engineer from TMSL, Kolkata working at Paysafe Group as a Platform Engineer. I like to learn new technologies and explore different fields and I'm always ready to hone my skills. I love to solve real life problems using my skills . I'm enthusiastic coder with hands-on experience on different development projects.",
   "aboutExperience": "Experience",
-  "experiences": [
+  "experiences": [  
+    {
+      "title": "Software Engineer",
+      "company": "Dream 11",
+      "date": "02/2022 - Present",
+      "id": 1,
+      "details": [
+        "Developed dream11 web to serve various use cases of dream11 partners like ICC, WPL, IPL, and PhonePe",
+        "Developed the mini scorecard and winning breakup feature for multi-match fantasy in the Dream11 app",
+        "DevelopedDream11’stechbrandingwebsiteanditscontentmanagement system (CMS)",
+        "Analysed and improved the performance ofreact project by 35-40%",
+        "Built a micro front-end application in react to serve various data platforms",
+        "Developed and drove the project from development to production",
+        "Developed the UI for cataloging all the events",
+        "Developed GraphQl queries for data platform",
+        "Developed the UI for PII decryption tool",
+        "Collaborated and improved the hiring and on-boarding process",
+        "Tech Stack :- ReactJs, React Native, Next.js, decap-cms, TypeScript, tailwind, GraphQL, AWS"
+      ]
+    },
     {
       "title": "Platform Engineer",
       "company": "Paysafe Group",
@@ -31,20 +50,6 @@
         "Implemented several features like bulk create, bulk edit etc.",
         "Migrated the application from angular 2 to 8.",
         "Automated the end to end non compliance billing process."
-      ]
-    },
-    {
-      "title": "Software Engineer",
-      "company": "Dream 11",
-      "date": "02/2022 - Present",
-      "id": 1,
-      "details": [
-        "Analysed and improved the performance ofreact project by 35-40%",
-        "Built a micro front-end application in react to serve various data platforms",
-        "Developed and drove the project from development to production",
-        "Developed the UI for cataloging all the events",
-        "Developed the UI for PII decryption tool",
-        "Collaborated and improved the hiring and on-boarding process"
       ]
     }
   ],
